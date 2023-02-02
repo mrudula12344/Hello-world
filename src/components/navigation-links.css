@@ -1,0 +1,97 @@
+.navigation-links-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.navigation-links-text01 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links-text02 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links-text03 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links-text04 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links-sidebar {
+  width: 374px;
+  height: 652px;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.navigation-links-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.navigation-links-image {
+  height: 2rem;
+  margin-bottom: var(--dl-space-space-threeunits);
+}
+.navigation-links-text05 {
+  margin-bottom: var(--dl-space-space-threeunits);
+}
+.navigation-links-text06 {
+  margin-bottom: var(--dl-space-space-threeunits);
+}
+.navigation-links-text07 {
+  margin-bottom: var(--dl-space-space-threeunits);
+}
+.navigation-links-text08 {
+  margin-bottom: var(--dl-space-space-threeunits);
+}
+.navigation-links-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.navigation-links-icon2 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.navigation-links-icon4 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+  .navigation-links-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .navigation-links-text {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text01 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text02 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text03 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text04 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-sidebar {
+    height: 70vh;
+  }
+}
